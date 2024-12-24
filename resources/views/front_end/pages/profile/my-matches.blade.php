@@ -8,7 +8,7 @@
             <ul class="leagues-ul">
                 <li class="inline-list home-list">
                     <h3>
-                        <a href="./">Home</a>
+                        <a href="{{ route('home') }}">Home</a>
                     </h3>
                 </li>
                 <li class="inline-list next-page-list">
@@ -43,23 +43,27 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+
+                            @foreach ($matches as $match)
+                            <tr class="matche-main" data-fixture-id="{{ $match->fixture_id ?? ''}}"
+                                data-league-id="{{ $match->league->league_id ?? ''}}">
                                 <td class="match-team-logo">
-                                    <a href="match-details">
-                                        <img src="assets/images/NationalBasketballAssociation.png"
-                                            alt="my-matches-logo">
-                                        <h6>National Basketball Association</h6>
+                                    <a href="javascript:void(0)">
+                                        <img class="table-img me-2" src="{{ $match->home_team_logo ?? '' }}"
+                                            alt="{{ $match->home_team_name ?? '' }} logo">
+                                        <h6>{{ $match->home_team_name ?? '' }}</h6>
                                     </a>
                                 </td>
                                 <td>
-                                    <h6>Brooklyn Nets</h6>
-                                    <p>Brooklyn</p>
-                                    <span>2024-12-29 07:30 PM</span>
+                                    {{-- <h6>Hornchurch Stadium</h6>
+                                       <p>London</p> --}}
+                                    <span>{{ date('Y-m-d h:i a', strtotime($match->fixture_date ?? '')) }}</span>
                                 </td>
                                 <td class="match-team-logo">
 
-                                    <img src="assets/images/MaximumBasketballLeague.jpg" alt="my-matches-logo">
-                                    <h6>Maximum Basketball League</h6>
+                                    <img src="{{ $match->away_team_logo ?? '' }}"
+                                        alt="{{ $match->away_team_name ?? '' }} logo" alt="Chelmsford City logo">
+                                    <h6>{{ $match->away_team_name ?? '' }}</h6>
                                 </td>
                                 <td class="match-score">
                                     <h4>0</h4>
@@ -69,115 +73,8 @@
 
                                 </td>
                             </tr>
-
-                            <tr>
-                                <td class="match-team-logo">
-                                    <a href="match-details">
-                                        <img src="assets/images/NationalBasketballAssociation.png"
-                                            alt="my-matches-logo">
-                                        <h6>National Basketball Association</h6>
-                                    </a>
-                                </td>
-                                <td>
-                                    <h6>Brooklyn Nets</h6>
-                                    <p>Brooklyn</p>
-                                    <span>2024-12-29 07:30 PM</span>
-                                </td>
-                                <td class="match-team-logo">
-
-                                    <img src="assets/images/MaximumBasketballLeague.jpg" alt="my-matches-logo">
-                                    <h6>Maximum Basketball League</h6>
-                                </td>
-                                <td class="match-score">
-                                    <h4>0</h4>
-                                </td>
-                                <td class="match-status">
-                                    <p class="win">-- </p>
-
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="match-team-logo">
-                                    <a href="match-details">
-                                        <img src="assets/images/NationalBasketballAssociation.png"
-                                            alt="my-matches-logo">
-                                        <h6>National Basketball Association</h6>
-                                    </a>
-                                </td>
-                                <td>
-                                    <h6>Brooklyn Nets</h6>
-                                    <p>Brooklyn</p>
-                                    <span>2024-12-29 07:30 PM</span>
-                                </td>
-                                <td class="match-team-logo">
-
-                                    <img src="assets/images/MaximumBasketballLeague.jpg" alt="my-matches-logo">
-                                    <h6>Maximum Basketball League</h6>
-                                </td>
-                                <td class="match-score">
-                                    <h4>0</h4>
-                                </td>
-                                <td class="match-status">
-                                    <p class="win">-- </p>
-
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="match-team-logo">
-                                    <a href="match-details">
-                                        <img src="assets/images/NationalBasketballAssociation.png"
-                                            alt="my-matches-logo">
-                                        <h6>National Basketball Association</h6>
-                                    </a>
-                                </td>
-                                <td>
-                                    <h6>Brooklyn Nets</h6>
-                                    <p>Brooklyn</p>
-                                    <span>2024-12-29 07:30 PM</span>
-                                </td>
-                                <td class="match-team-logo">
-
-                                    <img src="assets/images/MaximumBasketballLeague.jpg" alt="my-matches-logo">
-                                    <h6>Maximum Basketball League</h6>
-                                </td>
-                                <td class="match-score">
-                                    <h4>0</h4>
-                                </td>
-                                <td class="match-status">
-                                    <p class="win">-- </p>
-
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td class="match-team-logo">
-                                    <a href="match-details">
-                                        <img src="assets/images/NationalBasketballAssociation.png"
-                                            alt="my-matches-logo">
-                                        <h6>National Basketball Association</h6>
-                                    </a>
-                                </td>
-                                <td>
-                                    <h6>Brooklyn Nets</h6>
-                                    <p>Brooklyn</p>
-                                    <span>2024-12-29 07:30 PM</span>
-                                </td>
-                                <td class="match-team-logo">
-
-                                    <img src="assets/images/MaximumBasketballLeague.jpg" alt="my-matches-logo">
-                                    <h6>Maximum Basketball League</h6>
-                                </td>
-                                <td class="match-score">
-                                    <h4>0</h4>
-                                </td>
-                                <td class="match-status">
-                                    <p class="win">-- </p>
-
-                                </td>
-                            </tr>
-
+                        </tbody>
+                        @endforeach
                         </tbody>
                     </table>
                 </div>
