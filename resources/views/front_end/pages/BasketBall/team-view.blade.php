@@ -199,7 +199,7 @@
                   <h4 id="login-message"></h4>
               </div>
               <div class="modal-footer">
-              <button type="button" id="login-click" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+              <button type="button" id="login-click" class="btn btn-secondary" onclick="window.loaction.href='{{ route(login) }}'" >Login</button>
               </div>
           </div>
           </div>
