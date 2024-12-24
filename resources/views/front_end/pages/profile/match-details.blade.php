@@ -79,11 +79,11 @@
                                     @foreach ($teams[0]->teamDetails ?? [] as $data)
                                <tr>
                                    <td class="match-team-logo">
-                                       <a href="premier-league-players">
+                                       <!-- <a href="premier-league-players"> -->
                                            <img class="table-img me-2"
                                                src="{{$data->player_team_logo}}"
                                                alt="">
-                                       </a>
+                                       <!-- </a> -->
                                    </td>
                                    <td class="player-name">
                                        <p>{{$data->player_name}}</p>
