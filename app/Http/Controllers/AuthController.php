@@ -81,7 +81,7 @@ class AuthController extends Controller
             // Mail::to($request->input('email'))->send(new UserRegisterMail($user));
         }
 
-        return redirect()->route('home')->with('success','You are registered successfully!'); 
+        return redirect()->back()->with('success','You are registered successfully!'); 
         //return redirect()->json(['error' => false , 'message' => 'You are sign up successfully!']);
     //     return response()->json([
     //         'error' => false,
