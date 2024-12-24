@@ -11,11 +11,11 @@
 
                 <div class="navigation-menu">
                     <ul>
-                        <li><a class="active" href="{{ route('home') }}">Home</a></li>
-                        <li><a href="{{ route('how.to.play') }}">How To Play</a></li>
-                        <li><a href="{{ route('leagues') }}">Play Now</a></li>
-                        <li><a href="{{ route('about.us') }}">About Us</a></li>
-                        <li><a href="{{ route('contact.us') }}">Contact Us</a></li>
+                        <li><a class="{{ route::is('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
+                        <li><a class="{{ route::is('how.to.play') ? 'active' : '' }}" href="{{ route('how.to.play') }}">How To Play</a></li>
+                        <li><a class="{{ route::is('leagues') ? 'active' : '' }}" href="{{ route('leagues') }}">Play Now</a></li>
+                        <li><a class="{{ route::is('about.us') ? 'active' : '' }}" href="{{ route('about.us') }}">About Us</a></li>
+                        <li><a class="{{ route::is('contact.us') ? 'active' : '' }}" href="{{ route('contact.us') }}">Contact Us</a></li>
                     </ul>
                     @if(!Auth::check())
 
