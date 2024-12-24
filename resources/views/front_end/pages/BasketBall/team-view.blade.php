@@ -115,7 +115,7 @@
                     </table>
                 </div>
                 <div class="team-btns">
-                    <a href="#" id="save-team-btn" class="next-btn">Save</a>
+                    <a href="javascript:void(0)" id="save-team-btn" class="next-btn">Save</a>
                 </div>
             </div>
         </div>
