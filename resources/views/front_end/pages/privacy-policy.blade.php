@@ -258,9 +258,9 @@
                     6. Data Retention
                 </h3>
                 <p>
-                    A személyes adatokat csak addig őrizzük meg, ameddig szükséges a gyűjtés céljainak
-                    teljesítéséhez, vagy ameddig jogszabályok előírják. Amint az adatok már nem szükségesek,
-                    biztonságosan töröljük vagy anonimizáljuk őket, hogy megőrizzük azok védelmét.
+                 We retain your personal information as long as necessary to fulfill the purposes outlined in
+                     this Privacy Policy. When your data is no longer required, it is securely deleted or
+                   anonymized.
                 </p>
             </div>
 

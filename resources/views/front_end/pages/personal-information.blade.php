@@ -252,6 +252,9 @@
                 <h3>
                     6. Security of Your Data
                 </h3>
+                <p>
+                   We implement industry-standard measures to protect your personal data, including:
+                </p>
                 <ul>
                     <li>
                         <p>

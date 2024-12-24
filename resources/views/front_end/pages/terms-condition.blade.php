@@ -225,6 +225,9 @@
                 <h3>
                     8. Limitation of Liability
                 </h3>
+                <p>
+                   Chanceor is not liable for any:
+                </p>
                 <ul>
                     <li>
                         <p>

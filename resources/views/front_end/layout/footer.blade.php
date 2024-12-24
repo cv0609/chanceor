@@ -25,7 +25,7 @@
                     <ul>
                         <li>
                             <a href="{{ route('personal.info') }}">
-                                Personal Information Policy
+                                Personal Data Policy
                             </a>
                         </li>
                         <li>

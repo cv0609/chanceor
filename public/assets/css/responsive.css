@@ -76,6 +76,12 @@
     .edit_pan {
         top: 67%;
     }
+    .feature_cont {
+        grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    }
+    .home_reviews_wrap {
+        height: 27.625rem;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -85,7 +91,9 @@
     .home_banner {
         height: 30.625rem;
     }
-
+.home_reviews_wrap {
+    height: 26.625rem;
+}
 
 }
 
@@ -139,6 +147,9 @@
     .edit_pan {
         top: 70%;
         right: -7px;
+    }
+    .home_reviews_wrap {
+        height: 29.625rem;
     }
 }
 

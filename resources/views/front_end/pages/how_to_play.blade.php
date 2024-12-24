@@ -397,6 +397,9 @@
 <div class="discalimer text-center py-5">
     <div class="container">
         <div class="dis_text">
+             <h3>
+              Disclaimer
+            </h3>
             <p>
                 Chanceor is an independent platform designed for entertainment and informational purposes
                 only. All statistics, player information, and projections provided are based on publicly
@@ -408,9 +411,9 @@
                 risk and are subject to uncertainties. Chanceor assumes no responsibility for any financial or
                 reputational losses incurred while using the platform. All content and trademarks displayed
                 on the site are the property of their respective owners. Unauthorized use, duplication, or
-                redistribution is prohibited. For more details, please refer to our [ <a href="terms-conditions">Terms
-                    of Service</a> ] and
-                [ <a href="privacy-policy">Privacy Policy</a> ].
+                redistribution is prohibited. For more details, please refer to our <a href="terms-conditions">Terms
+                    of Service</a>  and
+                 <a href="privacy-policy">Privacy Policy</a> .
             </p>
         </div>
     </div>

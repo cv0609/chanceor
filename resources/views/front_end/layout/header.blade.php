@@ -18,9 +18,8 @@
                         <li><a class="{{ Route::is('contact.us') ? 'active' : '' }}" href="{{ route('contact.us') }}">Contact Us</a></li>
                     </ul>
                     @if(!Auth::check())
-
-                    <a href="{{ route('register') }}" class="butn signup-btn">Sign Up</a>
                     <a href="{{ route('login') }}" class="butn login-btn">Login</a>
+                    <a href="{{ route('register') }}" class="butn signup-btn">Sign Up</a>                 
                     @endif
                     @if(Auth::check())
 
