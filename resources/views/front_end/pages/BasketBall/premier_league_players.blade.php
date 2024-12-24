@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title','League players')
 @section('content')
 <!--Leagues Pages Banner Section Start -->
 <section class="pages-banner leagues-pages  bg-cover bg-no-repeat">
