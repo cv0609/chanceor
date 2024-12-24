@@ -186,7 +186,7 @@
 @section('custom-script')
 
 <script>
-    $(document).ready(function () {
+    
         @if(Session::has('success'))
         var flashMessage = "<?= Session::get('success') ?>";
         $("#success-message").html(flashMessage)
@@ -259,7 +259,7 @@
                     'X-Requested-With': 'XMLHttpRequest'
                 },
                 success: function (data) {
-
+                       console.log(data);
                     if (data.captain != true) {
                         var flashMessage = "Please select a captain.";
                         $("#cap-message").html(flashMessage);
@@ -368,7 +368,7 @@
             $('#capModal').modal('hide');
         });
 
-    });
+
 
 </script>
 
