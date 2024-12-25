@@ -2858,7 +2858,43 @@ input[type="number"] {
     width: 100px;
     margin: 0 auto;
 }
-
+.modal-body span svg {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.modal-body span {
+    display: block;
+    text-align: center;
+}
+#login-click{
+    color: #fff;
+    background-color: #ea592e;
+    border: none;
+    padding: 11px 30px !important;
+    width: auto;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #ea592e;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+#login-click:hover{
+    background-color: #fff;
+    border: 1px solid #ea592e;
+    color: #000; 
+}
+h4#login-message {
+    color: #000;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.modal-header button i::before {
+    display: none;
+}
 .modal-failure-image {
     background-image: url(../images/modal-close.png);
 }
