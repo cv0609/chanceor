@@ -194,6 +194,9 @@
     .contact-card1-image {
         height: 15.625rem;
     }
+    .home_reviews_wrap {
+        height: 22.625rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -247,5 +250,8 @@
     }
     .footer-pages-content-grp p {
         font-size: 1rem;
+    }
+    .home_reviews_wrap {
+        height: 29.625rem;
     }
 }

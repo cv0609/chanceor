@@ -547,6 +547,12 @@ span.orange {
 .home_reviews_wrap{
     height: 25.625rem;
 }
+.slick-list.draggable {
+    height: 100%;
+}
+.slick-track {
+    height: 100%;
+}
 .slick-dots {
     bottom: -3.1252rem;
 }
