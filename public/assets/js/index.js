@@ -26,7 +26,7 @@ $('.home_reviews_wrap').slick({
   cssEase: 'ease-in-out', 
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 2000, 
   slide: 'div',
   cssEase: 'linear', 
