@@ -152,6 +152,9 @@
         margin-bottom: 50px;
         border-radius: 0 18px 0 0
     }
+    .my-profile span.alert {
+        top: 0px;
+    }
 }
 
 @media screen and (max-width:575px) {
