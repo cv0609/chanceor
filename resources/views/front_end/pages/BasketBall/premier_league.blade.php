@@ -49,7 +49,7 @@
 
                             <tr>
                                 <td class="league-logo">
-                                <img src="{{ $league->logo }}" class="lazy-load" data-src="{{ $league->logo }}" alt="league-logo" src="" />
+                                <img src="{{ $league->logo }}" class="lazy-load" data-src="{{ $league->logo }}" alt="league-logo">
 
                                     <a href="{{ route('leagueMatches',['leagueId'=>$league->id]) }}"></a>
                                 </td>

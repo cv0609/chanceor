@@ -18,7 +18,7 @@
                             <span class="alert alert-danger">{{ Session::get('error') }}</span>
                             @endif
                             <fieldset>
-                                <input placeholder="Enter Your Email"tabindex="1" type="email" placeholder="Email" class="form-control para" id="email" name="email" autofocus>
+                                <input placeholder="Enter Your Email" tabindex="1" type="email" class="form-control para" id="email" name="email" autofocus>
                                 @error('email')
                                 <span class="text-danger">{{ $message }}</span>
                                 @enderror
