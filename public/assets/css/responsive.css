@@ -98,10 +98,6 @@
 }
 
 @media screen and (max-width:767px) {
-    html {
-        font-size: 13px;
-    }
-
     .footer-copyright-ssl-wrap {
         justify-content: center;
     }
@@ -150,6 +146,11 @@
     }
     .home_reviews_wrap {
         height: 29.625rem;
+    }
+    .login_signup_page_image {
+        height: 18.75rem;
+        margin-bottom: 50px;
+        border-radius: 0 18px 0 0
     }
 }
 
