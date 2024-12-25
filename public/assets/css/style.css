@@ -1143,6 +1143,7 @@ span.orange {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    border-radius: 0 20px;
 }
 
 .form-container {
@@ -1152,6 +1153,7 @@ span.orange {
     position: relative;
     padding: 1.25rem;
     border-radius: 0 1.25rem;
+    box-shadow: #ea592e 0px 5px 9px;
 }
 
 #login-signup input,
@@ -1166,7 +1168,6 @@ span.orange {
     backdrop-filter: blur(10px);
     padding: 1.25rem;
     border-radius: 0 1.25rem;
-    box-shadow: #ea592e 0px 5px 9px;
 }
 
 #login-signup h3 {
