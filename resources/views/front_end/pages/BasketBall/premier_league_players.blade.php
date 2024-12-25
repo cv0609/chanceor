@@ -92,11 +92,9 @@
                                                     <td class="player-name">
                                                         <p>{{$item->name ?? ''}}</p>
                                                     </td>
-                                                    <td class="match-team-logo">
-                                                        <a href="#">
+                                                    <td class="match-team-logo">                                                       
                                                             <img class="table-img me-2" src="{{$item->team_logo ?? ''}}"
-                                                                alt="">
-                                                        </a>
+                                                                alt="">                                                        
                                                     </td>
 
                                                     <td class="match-position">
@@ -151,11 +149,9 @@
                                                     <td class="player-name">
                                                         <p>{{$item->name ?? ''}}</p>
                                                     </td>
-                                                    <td class="match-team-logo">
-                                                        <a href="#">
+                                                    <td class="match-team-logo">                                                       
                                                             <img class="table-img me-2" src="{{$item->team_logo ?? ''}}"
-                                                                alt="">
-                                                        </a>
+                                                                alt="">                                                        
                                                     </td>
 
                                                     <td class="match-position">
@@ -209,10 +205,10 @@
                                                         <p>{{$item->name ?? ''}}</p>
                                                     </td>
                                                     <td class="match-team-logo">
-                                                        <a href="#">
+                                                        
                                                             <img class="table-img me-2" src="{{$item->team_logo ?? ''}}"
                                                                 alt="">
-                                                        </a>
+                                                        
                                                     </td>
 
                                                     <td class="match-position">
