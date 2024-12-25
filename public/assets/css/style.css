@@ -2794,9 +2794,9 @@ td.player-name p {
 }
 
 span.alert {
-    padding: 8px;
+    padding: 5px;
     position: absolute;
-    top: -50px;
+    top: -10px;
     display: inline-block;
     max-width: 300px;
     width: 100%;
@@ -2804,6 +2804,7 @@ span.alert {
     left: 50%;
     transform: translateX(-50%);
     font-size: 14px;
+    color: #000;
 }
 
 .my-profile span.alert {
