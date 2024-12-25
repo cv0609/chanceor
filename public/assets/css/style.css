@@ -1168,6 +1168,7 @@ span.orange {
     backdrop-filter: blur(10px);
     padding: 1.25rem;
     border-radius: 0 1.25rem;
+    position: relative;
 }
 
 #login-signup h3 {
