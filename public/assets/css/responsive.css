@@ -150,11 +150,13 @@
     .login_signup_page_image {
         height: 18.75rem;
         margin-bottom: 50px;
-        border-radius: 0 18px 0 0
     }
     .my-profile span.alert {
-        top: 0px;
+        top: -10px;
         max-width: 220px;
+    }
+    span.alert {
+        margin-top: 10px;
     }
 }
 

@@ -548,11 +548,11 @@ span.orange {
     height: 25.625rem;
 }
 .slick-dots {
-    bottom: 3.1252rem;
+    bottom: -3.1252rem;
 }
 
 .slick-dots li button:before {
-    font-size: 1.875;
+    font-size: 1.875rem;
     opacity: 1;
     color: #fff;
 }
@@ -1145,7 +1145,6 @@ span.orange {
     margin: 0 auto;
     position: relative;
     padding: 1.25rem;
-    border: 1px solid #ea592e;
     border-radius: 0 1.25rem;
 }
 
@@ -2790,7 +2789,7 @@ td.player-name p {
 span.alert {
     padding: 8px;
     position: absolute;
-    top: -15px;
+    top: -50px;
     display: inline-block;
     max-width: 300px;
     width: 100%;
@@ -2801,7 +2800,7 @@ span.alert {
 }
 
 .my-profile span.alert {
-    top: 10px;
+    top: 5px;
 }
 
 .alert-success {

@@ -1,5 +1,5 @@
 @extends('front_end.layout.main')
-@section('title','Home');
+@section('title','Home')
 @section('content')
 
 <!-- Home Page Banner Section Start -->

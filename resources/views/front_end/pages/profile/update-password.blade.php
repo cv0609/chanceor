@@ -34,7 +34,7 @@
                             @if(Session::has('success'))
                                     <span class="alert alert-success col-md-12 text-center">{{ Session::get('success')  }}</span>
                                     @endif
-                                <form action="{{ route('profile.update.password') }}" method="POST" class="mt-60 ">
+                                <form action="{{ route('profile.update.password') }}" method="POST">
                                         @csrf
                                         <div class="row">
                                         <div class="mb-3">
