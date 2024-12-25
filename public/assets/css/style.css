@@ -2550,7 +2550,7 @@ td.match-score h4 {
 
 .plyr-hedr .team-logo img {
     width: 60px;
-    width: 60px;
+    height: 60px;
     aspect-ratio: 1;
     object-fit: cover;
 }
