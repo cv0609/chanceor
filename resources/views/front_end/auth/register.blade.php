@@ -42,7 +42,7 @@
                                 @enderror
                             </fieldset>
                             <fieldset>
-                                <input placeholder="Choose Password" type="password" tabindex="5" name="password" placeholder="Password" id="password-field">
+                                <input placeholder="Enter Password" type="password" tabindex="5" name="password" placeholder="Password" id="password-field">
                                 @error('password')
                             <span class="text-danger">{{ $message }}</span>
                             @enderror
