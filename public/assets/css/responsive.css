@@ -154,6 +154,7 @@
     }
     .my-profile span.alert {
         top: 0px;
+        max-width: 220px;
     }
 }
 
